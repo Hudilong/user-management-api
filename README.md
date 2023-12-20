@@ -26,7 +26,7 @@ This project is an Express server template implemented in TypeScript, designed f
    git clone https://github.com/your-repository.git
    cd your-repository
    ```
-   2. **Start Docker Compose**:
+2. **Start Docker Compose**:
    ```sh
    docker-compose up --d
    ```
@@ -40,24 +40,24 @@ This project is an Express server template implemented in TypeScript, designed f
 
 ### User CRUD Routes
 
-- `POST /users`: Create a new user. -- Admin/Authenticated
-- `GET /users`: Retrieve all users. -- Authenticated
-- `GET /users/:id`: Get a specific user. --Authenticated
-- `PUT /users/:id`: Update a specific user. -- Admin/Authenticated
-- `DELETE /users/:id`: Delete a specific user. -- Admin/Authenticated
+- `POST /users`: Create a new user. -- `Admin` `Authenticated`
+- `GET /users`: Retrieve all users. -- `Authenticated`
+- `GET /users/:id`: Get a specific user. -- `Authenticated`
+- `PUT /users/:id`: Update a specific user. -- `Admin` `Authenticated`
+- `DELETE /users/:id`: Delete a specific user. -- `Admin` `Authenticated`
 
 ### Account Management Routes
 
-- `GET /me`: Retrieve the current user info. -- Authenticated
+- `GET /me`: Retrieve the current user info. -- `Authenticated`
 - `POST /me`: Register a new user account.
-- `PUT /me`: Update the current user info.  -- Authenticated
-- `DELETE /me`: Delete the current user account. -- Authenticated
+- `PUT /me`: Update the current user info.  -- `Authenticated`
+- `DELETE /me`: Delete the current user account. -- `Authenticated`
 
 
 ### Auth Routes
 
 - `POST /auth/login`: Login to a user account.
-- `POST /auth/logout`: Logout from user account. -- Authenticated
+- `POST /auth/logout`: Logout from user account. -- `Authenticated`
 - `POST /auth/refresh`: Get a new refresh token.
 
 ## Environment Variables
