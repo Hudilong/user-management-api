@@ -23,8 +23,8 @@ This project is an Express server template implemented in TypeScript, designed f
 
 1. **Clone the Repository**:
    ```sh
-   git clone https://github.com/your-repository.git
-   cd your-repository
+   git clone https://github.com/Hudilong/user-management-template.git
+   cd user-management-template
    ```
 2. **Start Docker Compose**:
    ```sh
