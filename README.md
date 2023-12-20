@@ -6,7 +6,7 @@ This project is an Express server template implemented in TypeScript, designed f
 
 - **Docker-Compose Setup**: Includes `node`, `postgres`, and `redis` containers for a comprehensive development environment.
 - **GraphQL and RESTful Endpoints**: A hybrid approach to offer flexibility in API consumption. ApolloServer is used for GraphQL
-- **User Management**: Admin routes for CRUD operations on users account management routes for regular users.
+- **User Management**: Admin routes for CRUD operations on users and account management routes for regular users.
 - **Session Management**: Utilizes JWT with a blacklist maintained in Redis for secure and efficient session handling.
 - **MVC Architecture**: Structured with routers, controllers, services, and repositories for organized and maintainable code.
 - **Custom Error Handling**: Implements custom error classes and an error handling middleware for clear and consistent error responses.
